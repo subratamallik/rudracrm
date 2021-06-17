@@ -1,0 +1,103 @@
+body{background: #ddd;}
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 250px !important;
+    padding-top: 58px !important;
+    padding-right: 10px;
+}
+.pa-1{padding: 10px;}
+.pa-2{padding: 15px;}
+.pa-3{padding: 20px;}
+a{text-decoration: none !important;}
+p{margin: 0px !important;}
+.w50{width: 50px;}.w75{width: 75px;}.w100{width: 100px;}.w150{width: 150px;}.w200{width: 200px;}.w250{width: 250px;}.w300{width: 300px;}.w350{width: 350px;}
+.fw-bold{font-weight: bold;}
+.cp{cursor: pointer;}
+.fs-10{font-size: 10px;}.fs-11{font-size: 11px;}.fs-12{font-size: 12px;}.fs-13{font-size: 13px;}.fs-14{font-size: 14px;}.fs-15{font-size: 15px;}.fs-16{font-size: 16px;}.fs-17{font-size: 17px;}.fs-18{font-size: 18px;}.fs-19{font-size: 19px;}.fs-20{font-size: 20px;}
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;top: 0;
+	background: #000;
+	height: 50px;
+}
+
+.header {
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #434343;
+}
+.header a{
+	color: #fff;
+}
+.header .leftpart {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header .rightpart {
+    font-weight: 600;
+}
+.sidebar{
+	position: fixed;width: 220px;
+	background: #000;
+	height: 100%;
+	padding: 20px 0px  50px 0px;
+	top: 50;
+}
+
+.sidebar p{
+	background: #606060;
+	color: #fff;font-weight: 600;
+	padding: 5px 15px 5px 15px;
+	text-transform: uppercase;
+}
+.sidebar a{
+	background: #2a2a2a;display: block;
+	color: #fff;
+	padding: 8px 15px 8px 15px;
+	margin: 1px 0px 1px 0px;
+}
+.sidebar a.active {
+    background:#DDDDDD;
+    color: #000;
+}
+.table{
+	border: 3px solid #fff;
+}
+.table.vm td{
+	vertical-align: middle;
+}
+.border-default{
+	border: 1px solid #c8c8c8;
+}
+.table thead{
+	background: #494949;color: #fff;font-weight: 600;
+}
+.table tbody{
+	background: #fff;
+}
+form .form-group label{
+	font-weight: 600;
+	font-size: 14px;
+	color: #727272;
+	margin: 0px 0px 2px 0px;
+}
+form .form-control{
+	background: #fff8ce;
+}
+.heading{
+	font-weight: 600;
+	padding: 10px;
+	background: #fff;
+	color: #000;
+	border-bottom: 1px solid #aeaeae;
+	text-transform: uppercase !important;
+	font-size: 17px;
+}
+.bg-default{
+	background: #f1f1f1;
+}

@@ -1,0 +1,295 @@
+body{background: #ddd;}
+body,html,div,a,td,p,span{
+	
+}
+
+html {
+    
+}
+::-webkit-scrollbar {
+    width: 5;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+
+.wrapper_container {
+    width: 100%;
+    padding: 0px;
+    padding-left: 240px !important;
+    padding-top: 70px !important;
+    padding-right: 20px;
+}
+.pa-1{padding: 10px;}
+.pa-2{padding: 15px;}
+.pa-3{padding: 20px;}
+a{text-decoration: none !important;}
+p{margin: 0px !important;}
+.w50{width: 50px;}.w75{width: 75px;}.w100{width: 100px;}.w125{width: 125px;}.w150{width: 150px;}.w200{width: 200px;}.w250{width: 250px;}.w300{width: 300px;}.w350{width: 350px;}
+.w500{width: 500px;}.w50pc{width: 50%;}
+.w100pc{width: 100%;}.h100pc{height: 100%;}
+.fw-bold{font-weight: bold;}
+.cp{cursor: pointer;}
+.fs-10{font-size: 10px;}.fs-11{font-size: 11px;}.fs-12{font-size: 12px;}.fs-13{font-size: 13px;}.fs-14{font-size: 14px;}.fs-15{font-size: 15px;}.fs-16{font-size: 16px;}.fs-17{font-size: 17px;}.fs-18{font-size: 18px;}.fs-19{font-size: 19px;}.fs-20{font-size: 20px;}
+.header{
+	position: fixed;
+	z-index: 1200;
+	width: 100%;
+	left: 0;top: 0;
+	background: #1D2733;
+	height: 50px;
+}
+.pa-0{
+	padding: 0px !important;
+}
+.fixed{
+	position: fixed;
+}
+.callingDivWrapper{
+	background: #DDDDDD;
+	margin-top: 100px;
+}
+.pageLoader{
+	position: fixed;width: 100%;height: 100%;top: 0;left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+.pageLoaderInner{
+	position: fixed;top: 50%;left: 50%;
+	background-color: #fff;font-weight: 600;
+	text-align: center;padding: 10px 50px;
+}
+.callingPart {
+    padding-right: 260px;
+    width: 100%;
+    z-index: 1010;
+    margin: -20px 0px 0px 0px;
+    padding: 20px 260px 0px 0px;
+    background: #DDDDDD;
+}
+.callingPartTable{
+	background: #000;	
+}
+.header {
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #434343;
+}
+.header a{
+	color: #fff;
+}
+.header .leftpart {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header .rightpart {
+    font-weight: 600;
+}
+.sidebar{
+	position: fixed;width: 220px;
+	background: #1D2733;
+	height: 100%;
+	padding: 0px 0px  70px 0px;
+	top: 50;
+	z-index: 1200;
+	overflow-y: scroll;
+}
+
+.sidebar p{
+	background: #2a3849;
+	color: #fff;font-weight: 600;
+	padding: 8px 15px 8px 15px;
+	text-transform: uppercase;
+}
+.sidebar .submenu a{
+	background: #17202b;
+	display: block;
+	color: #aeaeae;
+	padding: 5px 15px 5px 15px;
+	margin: 1px 0px 1px 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.sidebar .dashbrd a{
+	color: #fff;
+	display: block;
+}
+.sidebar .dashbrd.active{
+	color: #000;
+	background: #DDDDDD;
+}
+.sidebar .dashbrd.active a{
+color: #000;
+}
+
+.sidebar .submenu a.active {
+    background:#DDDDDD;
+    color: #000;
+}
+.table{
+	border: 3px solid #fff;
+	margin: 0px;
+}
+.table.pa-0 tbody td{
+	padding: 2px 10px !important;
+}
+.table.pa-1 td{
+	padding: 5px 10px !important;
+}
+.table tbody tr:hover td{
+	background: #e8e8ff;
+}
+.table.vm td{
+	vertical-align: middle;
+}
+.table.border-none td{
+	border: none;
+}
+.border-default{
+	border: 1px solid #c8c8c8;
+}
+.table.table-bordered{
+	border: 1px solid #9e9e9e
+}
+.table thead{
+	background: #494949;color: #fff;font-weight: 600;
+}
+.table tbody{
+	background: #fff;
+}
+.bg-black{
+	background: #000;
+}
+form .form-group label{
+	font-weight: 600;
+	font-size: 14px;
+	color: #727272;
+	margin: 0px 0px 2px 0px;
+}
+form .form-control{
+	background: #fff8ce;
+}
+.heading{
+	font-weight: 600;
+	padding: 10px;
+	background: #fff;
+	color: #000;
+	border-bottom: 1px solid #aeaeae;
+	text-transform: uppercase !important;
+	font-size: 17px;
+}
+.heading-table{
+width: 100%;
+	font-weight: 600;
+	padding: 0px 10px;
+	background: #fff;
+	color: #000;
+	border-bottom: 1px solid #aeaeae;
+	text-transform: uppercase !important;
+	font-size: 17px;
+}
+.heading-table td{
+	padding: 0px 20px;
+}
+
+.bg-default{
+	background: #f1f1f1;
+}
+.noData{
+	padding: 100px 20px;text-align: center;font-weight: bold;color: #626262;
+}
+.postTable tr td:nth-child( odd ){
+	font-size: 14px;font-weight: bold;color: #767676;
+	width: 10%;
+}
+.postTable tr td:nth-child( even ){
+	font-weight: bold;
+	width: 20%;
+	background: #fff0dd;
+	font-size: 14px;
+}
+.postTableDiv .row{
+	margin: 0px;
+}
+.postTableDiv .row .col{
+	padding: 0px;
+}
+
+.postMetaTable tr td:nth-child( odd ){
+	font-size: 13px;font-weight: bold;color: #767676;
+	width: 12%;
+}
+.postMetaTable tr td:nth-child( even ){
+	font-weight: bold;
+	width: 18%;
+	background: #fff0dd;
+	font-size: 14px;
+}
+#startCalling .modal-body {
+    box-shadow: 1px 10px 17px -7px #000;
+}
+.box-shadow{
+	box-shadow: 1px 7px 10px -7px #989898;
+}
+#startCalling .modal-content .img img{
+   width: 100px;
+   margin-bottom: 35px;
+}
+
+.timerdiv .timer {
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 1.5;
+}
+.loginWrapper{
+	position: fixed;
+	width: 400px;height: 300px;
+	top: 50%;left: 50%;
+	margin: -150px 0px 0px -200px;
+}
+.callingBox .callingNumber	input{
+	padding: 7px 10px;font-size: 20px;text-align: center;font-weight: 600;
+	width: 175px;letter-spacing: 1.2px;border: 1px solid #fff;background: #000;color: #fff;
+	border-radius: 5px;
+}
+.calltype label{
+	margin: 0px;
+}
+.calltype label:nth-child(1){
+	border: 2px solid #009901;color: #fff;padding: 5px 10px;
+	border-radius: 5px;
+}
+.calltype label:nth-child(2){
+	border: 2px solid #a10000;color: #fff;padding: 5px 10px;border-radius: 5px;
+}
+.form-control-normal{
+	padding: 5px 7px;
+}
+.display-none{
+	display: none;
+}
+td.actionTd{
+    background: #494949;
+}
+.paginationdiv{
+	margin: 0px 0px 20px 0px;
+}
+.paginationdiv  div:first-child{
+	float: left;
+	margin: 20px 0px 0px 0px;
+}
+.paginationdiv div div:nth-child(1) {
+    
+    padding: 8px 15px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 11px 0px 0px 0px;
+}
+.paginationdiv div div:nth-child(2){
+	display: none;
+}
